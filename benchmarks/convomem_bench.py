@@ -28,11 +28,11 @@ import shutil
 import tempfile
 import argparse
 import urllib.request
+import chromadb
+
 from pathlib import Path
 from collections import defaultdict
 from datetime import datetime
-
-import chromadb
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
